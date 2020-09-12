@@ -12,7 +12,7 @@ enum network
 }
 
 client = network_create_socket(network_socket_tcp);
-network_connect(client,"192.168.0.12",64198);
+network_connect(client,"xxxxx",64198);
 //buffer
 client_buffer = buffer_create(1024,buffer_fixed,1);
 
